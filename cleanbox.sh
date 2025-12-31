@@ -4,10 +4,14 @@
 DAYS=160
 
 FOLDERS=(
-    "/storage/emulated/0/.Trash"
-    "/storage/emulated/0/Temp"
-    "/storage/emulated/0/tmp"
-    "/storage/emulated/0/Lost.dir"
+    "/storage/emulated/0/Telegram"
+    "/storage/emulated/0/Telegram Video"
+    "/storage/emulated/0/Telegram Images"
+    "/storage/emulated/0/Telegram Documents"
+    "/storage/emulated/0/DCIM/.thumbnails"
+    "/storage/emulated/0/Pictures/.thumbnails"
+    "/storage/emulated/0/Movies/.thumbnails"
+
     "/storage/emulated/0/Android/media/com.whatsapp/WhatsApp/Media"
     "/storage/emulated/0/Download"
 )

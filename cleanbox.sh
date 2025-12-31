@@ -12,7 +12,7 @@ FOLDERS=(
     "/storage/emulated/0/Download"
 )
 
-echo "Deleting files larger than $DIAS days..."
+echo "Deleting files larger than $DAYS days..."
 echo "------------------------------------------"
 
 for FOLDER in "${FOLDERS[@]}"; do

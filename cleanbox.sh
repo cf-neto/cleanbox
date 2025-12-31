@@ -22,7 +22,7 @@ echo "------------------------------------------"
 for FOLDER in "${FOLDERS[@]}"; do
   if [ -d "$FOLDER" ]; then
     echo "Deleting: $FOLDER"
-    find "$FOLDER" -type f -mtime +$DIAS -print -delete
+    find "$FOLDER" -type f -mtime +$DAYS -print -delete
   else
     echo "Folder not found: $FOLDER"
   fi
